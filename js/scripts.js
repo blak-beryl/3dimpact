@@ -138,9 +138,9 @@ $(window).on('scroll , load',function(){
 		if(window_top > 50){
 			$('.site_header').removeClass('position-absolute').addClass('header-scroll_bg_light fixed-top');
 		}
-		else {
-			$('.site_header.fixed-top').removeClass('header-scroll_bg_light fixed-top').addClass('position-absolute');
-		}
+		// else {
+		// 	$('.site_header.fixed-top').removeClass('header-scroll_bg_light fixed-top').addClass('position-absolute');
+		// }
 
 		/*---------- menu active item ----------*/
 
